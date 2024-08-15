@@ -1,0 +1,98 @@
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* App title css properties */
+.app-title {
+    text-align: center; 
+    color: #ffffff;
+    background-color:#54bebe;
+    border-radius:8px;
+    margin: 10px 0px; 
+    padding: 5px 0px;
+}
+
+
+/* App description css properties */
+.app-description{
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+
+/* Role input css properties */
+.role-title{
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+.role-dropdown{
+    width: 50vH;
+    height: 40px;
+    border-color: #000000;
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+
+/* Gender input css properties */
+.gender-title{
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+.gender-dropdown{
+    width: 50vH;
+    height: 40px;
+    border-color:#000000;
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+
+/* Years of experience input css properties */
+.exp-title{
+    animation: fadeInSlideUp 1s ease-out;
+}
+.exp-input{
+    height: 40px;
+    width: 50vH;
+    border-color:#000000;
+    border-width:1px;
+    border-radius:5px;
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+
+/* Submit button css properties */
+.submit-button {
+    height: 40px; 
+    width: 30vH; 
+    border-radius: 5px; 
+    border-width: 0px; 
+    background-color: #54bebe; 
+    color: #ffffff;
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+
+/* Output text css properties */
+.output {
+    background-color:#54bebe;
+    color: #ffffff;
+    border-radius:8px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    animation: fadeInSlideUp 2s ease-out;
+}
+
+.barchart{
+    animation: fadeInSlideUp 2s ease-out;
+    border: 1px solid #B1B2B5;
+}
+
+.barchar-description{
+    animation: fadeInSlideUp 2s ease-out;
+}
