@@ -18,8 +18,8 @@ from get_data import get_and_clean_data
 cleaned_data, raw_data = get_and_clean_data()
 
 #importing the model
-xgb_model = joblib.load("https://github.com/YojerlisPonceano/TechPay_Predictor/blob/main/assets/xgb_model.joblib")
-
+xgb_model = joblib.load("https://github.com/YojerlisPonceano/TechPay_Predictor/raw/main/assets/xgb_model.joblib")
+                         
 #getting the model score
 score = ""
 with open('https://raw.githubusercontent.com/YojerlisPonceano/TechPay_Predictor/main/assets/model_score.txt', 'r') as file:
