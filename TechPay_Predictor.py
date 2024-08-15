@@ -25,9 +25,10 @@ mfile = BytesIO(requests.get(mLink).content)
 xgb_model = joblib.load(mfile)
                          
 #getting the model score
-score = ""
-with open('https://raw.githubusercontent.com/YojerlisPonceano/TechPay_Predictor/main/assets/model_score.txt', 'r') as file:
-    score = file.read().strip()
+master = 'https://raw.githubusercontent.com/YojerlisPonceano/TechPay_Predictor/main/assets/model_score.txt'
+req = requests.get(master)
+req = req.text
+score = req.strip()
 
 
 def get_positions_order() -> dict:
