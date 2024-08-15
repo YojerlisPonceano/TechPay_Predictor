@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
 
 def get_and_clean_data() -> (pd.DataFrame, pd.DataFrame):
-    data = pd.read_csv("assets\\employee_data.csv")
+    data = pd.read_csv("https://raw.githubusercontent.com/YojerlisPonceano/TechPay_Predictor/main/assets/employee_data.csv")
 
     #encode the gender and position fields
     label_enc = LabelEncoder() 
