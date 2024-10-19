@@ -87,7 +87,7 @@ server = app.server
 # App layout
 app.layout = dbc.Container([
 
-    html.H1("TechPay Predictor",
+    html.H1("Salary  Predictor",
             className = "app-title"),
     
     dbc.Row([html.Br()]),
